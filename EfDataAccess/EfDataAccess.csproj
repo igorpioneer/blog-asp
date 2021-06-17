@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210612081653_initial.cs" />
+    <Compile Remove="Migrations\20210612081653_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210612083010_initial.cs" />
+    <Compile Remove="Migrations\20210612083010_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210613152525_Add Users.cs" />
+    <Compile Remove="Migrations\20210613152525_Add Users.Designer.cs" />
+    <Compile Remove="Migrations\20210613153733_Users and usecases added.cs" />
+    <Compile Remove="Migrations\20210613153733_Users and usecases added.Designer.cs" />
+    <Compile Remove="Migrations\20210613154634_User-Post relation.cs" />
+    <Compile Remove="Migrations\20210613154634_User-Post relation.Designer.cs" />
+    <Compile Remove="Migrations\20210613161134_Initial migration.cs" />
+    <Compile Remove="Migrations\20210613161134_Initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20210613161337_Initial.cs" />
+    <Compile Remove="Migrations\20210613161337_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20210613161624_Initial.cs" />
+    <Compile Remove="Migrations\20210613161624_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20210613162735_Pocetna.cs" />
+    <Compile Remove="Migrations\20210613162735_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210613163230_Pocetna.cs" />
+    <Compile Remove="Migrations\20210613163230_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210613163839_Prva.cs" />
+    <Compile Remove="Migrations\20210613163839_Prva.Designer.cs" />
+    <Compile Remove="Migrations\20210613165155_Pocetna.cs" />
+    <Compile Remove="Migrations\20210613165155_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210613205235_Pocetna.cs" />
+    <Compile Remove="Migrations\20210613205235_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210613223909_UseCaseLog.cs" />
+    <Compile Remove="Migrations\20210613223909_UseCaseLog.Designer.cs" />
+    <Compile Remove="Migrations\20210613224528_Pocetna.cs" />
+    <Compile Remove="Migrations\20210613224528_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615170416_DOdavanje ocena.cs" />
+    <Compile Remove="Migrations\20210615170416_DOdavanje ocena.Designer.cs" />
+    <Compile Remove="Migrations\20210615170549_Dodavanje ocena.cs" />
+    <Compile Remove="Migrations\20210615170549_Dodavanje ocena.Designer.cs" />
+    <Compile Remove="Migrations\20210615170700_Pocetna.cs" />
+    <Compile Remove="Migrations\20210615170700_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615170908_Pocetna.cs" />
+    <Compile Remove="Migrations\20210615170908_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615171216_Pocetna.cs" />
+    <Compile Remove="Migrations\20210615171216_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615171551_Pocetna.cs" />
+    <Compile Remove="Migrations\20210615171551_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615172415_Pocetna.cs" />
+    <Compile Remove="Migrations\20210615172415_Pocetna.Designer.cs" />
+    <Compile Remove="Migrations\20210615173543_Tabela Komentara.cs" />
+    <Compile Remove="Migrations\20210615173543_Tabela Komentara.Designer.cs" />
+    <Compile Remove="Migrations\20210615173721_Tabela Komentara.cs" />
+    <Compile Remove="Migrations\20210615173721_Tabela Komentara.Designer.cs" />
+    <Compile Remove="Migrations\20210615173842_Tabela Komentara.cs" />
+    <Compile Remove="Migrations\20210615173842_Tabela Komentara.Designer.cs" />
+    <Compile Remove="Migrations\20210615174446_Tabela Komentara.cs" />
+    <Compile Remove="Migrations\20210615174446_Tabela Komentara.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

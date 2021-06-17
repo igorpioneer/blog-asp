@@ -1,0 +1,15 @@
+Api je backend resenje za blog za postovima. 
+
+Arhitektura je podeljeno po slojevima za Api, Domain, Application, Implementacion, i data sloj EF
+
+Korisnici se mogu registrovati, postavljati postove sa slikom, komentare, ocenjivati postove. Administrator moze vrsiti manipulaciju podataka nad svakom tabelom.
+
+Code first pristup, baza se pravi iz koda.
+
+Autorizacija se vrsi Jwt tokenom.
+
+Implementiran je swagger.
+
+Postoji sistem logovanja svake akcije koju korisnik pokusa, kao i search tabele sa logovima
+
+Slika baze u prilogu
